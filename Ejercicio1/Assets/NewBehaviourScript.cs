@@ -11,18 +11,16 @@ public class NewBehaviourScript : MonoBehaviour
     public string nombre = "Rodolfo";
     public bool Penta = true;
 
-    int multiplicar (int n , int m)
+    void Saludo (string hola)
     {
-        int resultado = n * m;
-        return resultado;
+        print("hola " + hola);
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        int resultado = multiplicar(5, 8);
-        print(resultado);
+        Saludo("Pepito");
     }
 
     // Update is called once per frame
