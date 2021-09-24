@@ -13,22 +13,10 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (n < 25)
+       while (n != 12)
         {
-            n++;
+            n = Random.Range(-450, 538);
             print(n);
-            if (n == 25)
-            {
-                print(mens);
-            }
-        }
-        for (m = 8; m <= 48; m++)
-        {
-            print(m);
-            if (m == 48)
-            {
-                print(mens2);
-            }
         }
     }
 
