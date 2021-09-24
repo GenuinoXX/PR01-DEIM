@@ -8,16 +8,21 @@ public class NewBehaviourScript : MonoBehaviour
     int m = 8;
     string mens = "El bayonetta está guapo";
     string mens2 = "Odio a Chris Pratt";
+    public string nombre = "Rodolfo";
+    public bool Penta = true;
+
+    int multiplicar (int n , int m)
+    {
+        int resultado = n * m;
+        return resultado;
+    }
 
 
     // Start is called before the first frame update
     void Start()
     {
-       while (n != 12)
-        {
-            n = Random.Range(-450, 538);
-            print(n);
-        }
+        int resultado = multiplicar(5, 8);
+        print(resultado);
     }
 
     // Update is called once per frame
